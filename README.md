@@ -19,7 +19,9 @@ with an email address that has already be found in the AD csv, it will
 use the first entry with that email, ignoring subsequent.
 
 Here is a typical entry in that file
+
 "First Name","Last Name","Username","Email","Department","Phone","Account Is Disabled"
+
 "Fred","Smith","fsmith","Fred.Smith@myorg.org","Personnel Dept","555-5555","False"
 
 Samanage's API definition can be found at 
