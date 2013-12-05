@@ -32,4 +32,7 @@ Please direct any questions about this API to them.
 There are some global variables you will want to set in the beginning part 
 of the sync_users_samanage.pl script.  They should be self explanatory.
 
-
+PLEASE NOTE: If you are using this in your organization, we have added a user
+defined field in Samanage (AD_Account_Name).  This is not a field that Samanage has.
+You will want to find references to that and update the script accordingly.  We have 
+left it in the script to show how it can be done.
